@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: dairyforge-edge
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: dairyforge-edge
+  pipelines: {}
