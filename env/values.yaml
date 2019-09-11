@@ -25,7 +25,7 @@ interchange-app:
   env:
     CLUSTER_NAMESPACE: dairyforge-edge
     DSPL_INTERCHANGE_STORAGE_BUCKET: dspl-interchange-app-edge
-    DSPL_INTERCHANGE_DATASTORE_PROJECT_ID: dspl-dev
+    DSPL_INTERCHANGE_FIRESTORE_PROJECT_ID: dspl-dev-fs
 py-envtest:
   env:
     CLUSTER_NAMESPACE: dairyforge-edge
